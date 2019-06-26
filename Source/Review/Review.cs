@@ -388,6 +388,7 @@ namespace StateFunding
             }
 
             finalPO = tmpPO;
+            Inst.po = finalPO;
         }
 
         public void UpdateFinalSC()
@@ -426,6 +427,7 @@ namespace StateFunding
             }
 
             finalSC = tmpSC;
+            Inst.sc = finalSC;
         }
 
         private void UpdateFunds()
